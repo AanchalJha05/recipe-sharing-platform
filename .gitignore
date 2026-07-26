@@ -1,0 +1,48 @@
+
+# Python
+
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Environment variables
+.env
+
+# SQLite database
+db.sqlite3
+
+# Django generated files
+media/
+staticfiles/
+
+# Logs
+*.log
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+
+# React / Node
+
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+
+# npm logs
+npm-debug.log*
+yarn-error.log*
+
+
+# Python cache
+
+.pytest_cache/
+.mypy_cache/
