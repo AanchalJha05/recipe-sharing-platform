@@ -1,0 +1,26 @@
+/* Search box */
+.ant-input-search .ant-input,
+.ant-input-search .ant-input-group-addon .ant-btn {
+    transition: all 0.3s ease;
+}
+
+.ant-input-search:hover .ant-input,
+.ant-input-search .ant-input:focus {
+    border-color: #1677ff !important;
+    box-shadow: 0 0 8px rgba(22, 119, 255, 0.25);
+}
+
+/* Select */
+.ant-select-selector {
+    transition: all 0.3s ease !important;
+}
+
+.ant-select:hover .ant-select-selector {
+    border-color: #1677ff !important;
+    box-shadow: 0 0 8px rgba(22, 119, 255, 0.25);
+}
+
+.ant-select-focused .ant-select-selector {
+    border-color: #1677ff !important;
+    box-shadow: 0 0 10px rgba(22, 119, 255, 0.35) !important;
+}

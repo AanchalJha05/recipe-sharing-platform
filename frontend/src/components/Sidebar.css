@@ -1,0 +1,24 @@
+.ant-menu-light {
+    background: transparent !important;
+}
+
+.ant-menu-light .ant-menu-item {
+    color: #2F3E2F !important;
+    border-radius: 10px;
+    margin: 6px 0;
+    transition: all 0.25s ease;
+}
+
+.ant-menu-light .ant-menu-item:hover {
+    background: #DDF5E3 !important;
+    color: #2E7D32 !important;
+}
+
+.ant-menu-light .ant-menu-item-selected {
+    background: #52C41A !important;
+    color: white !important;
+}
+
+.ant-menu-light .ant-menu-item-selected .anticon {
+    color: white !important;
+}
