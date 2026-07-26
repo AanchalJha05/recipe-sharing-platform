@@ -142,7 +142,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
     "http://localhost:5174",
-    "https://YOUR-FRONTEND-URL.onrender.com",
+    "https://frontend-6y6l.onrender.com",
 ]
 
 import os
