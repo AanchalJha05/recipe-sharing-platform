@@ -131,7 +131,9 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
-
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 STATIC_URL = 'static/'
 STATIC_ROOT = BASE_DIR / "staticfiles"
 
@@ -142,6 +144,11 @@ STORAGES = {
     "staticfiles": {
         "BACKEND": "whitenoise.storage.CompressedManifestStaticFilesStorage",
     },
+}
+CLOUDINARY_STORAGE = {
+    "CLOUD_NAME": os.getenv("CLOUDINARY_CLOUD_NAME"),
+    "API_KEY": os.getenv("CLOUDINARY_API_KEY"),
+    "API_SECRET": os.getenv("CLOUDINARY_API_SECRET"),
 }
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
@@ -155,7 +162,6 @@ CORS_ALLOWED_ORIGINS = [
     "https://frontend-6y6l.onrender.com",
 ]
 
-import os
 
 DEFAULT_FILE_STORAGE = "cloudinary_storage.storage.MediaCloudinaryStorage"
 
@@ -168,9 +174,7 @@ REST_FRAMEWORK = {
         "rest_framework.permissions.AllowAny",
     ),
 }
-import cloudinary
-import cloudinary.uploader
-import cloudinary.api
+
 cloudinary.config(
     cloud_name=os.getenv("CLOUDINARY_CLOUD_NAME"),
     api_key=os.getenv("CLOUDINARY_API_KEY"),
