@@ -1,4 +1,4 @@
-# 🍳 CookPad
+# CookPad
 
 A full-stack recipe sharing web application where users can create, browse, manage, and save their favourite recipes.
 
@@ -6,7 +6,7 @@ Built using **Django REST Framework**, **React (Vite)**, **PostgreSQL**, and **A
 
 ---
 
-# 📌 Features
+# Features
 
 - 🔐 User Authentication (JWT)
 - 🍽️ Create, Update & Delete Recipes
@@ -48,7 +48,7 @@ Built using **Django REST Framework**, **React (Vite)**, **PostgreSQL**, and **A
 
 ---
 
-# 📸 Application Preview
+# Application Preview
 
 ## Register
 
@@ -166,7 +166,7 @@ npm run dev
 
 ---
 
-# 📡 API Endpoints
+# API Endpoints
 
 | Method | Endpoint | Description |
 |--------|----------|-------------|
@@ -181,7 +181,7 @@ npm run dev
 
 ---
 
-# 🚀 Future Improvements
+# Future Improvements
 
 - ⭐ Recipe Ratings
 - 💬 Recipe Comments
@@ -192,7 +192,7 @@ npm run dev
 
 ---
 
-# 👩‍💻 Author
+# Author
 
 **Aanchal**
 
