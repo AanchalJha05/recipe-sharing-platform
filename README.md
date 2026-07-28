@@ -1,4 +1,4 @@
-# CookPad
+# 🍳 CookPad
 
 A full-stack recipe sharing web application where users can create, browse, manage, and save their favourite recipes.
 
@@ -47,7 +47,8 @@ Built using **Django REST Framework**, **React (Vite)**, **PostgreSQL**, and **A
 - Postman
 
 ---
-# Application Preview
+
+# 📸 Application Preview
 
 ## Register
 
@@ -99,7 +100,7 @@ Create and upload a new recipe with ingredients, category, and image.
 
 ## My Recipes
 
-Manage all recipes created by the logged-in user.
+Manage recipes created by the logged-in user.
 
 ![My Recipes](assets/My_Recipes.png)
 
@@ -110,73 +111,12 @@ Manage all recipes created by the logged-in user.
 View all recipes you've marked as favourites.
 
 ![Favourite Recipes](assets/Favourite_Recipe.png)
-## Register
-
-Create a new account to access the application.
-
-![Register](assets/Register.png)
-
----
-
-## Login
-
-Secure JWT authentication for users.
-
-![Login](assets/login.png)
-
----
-
-## Browse Recipes
-
-Browse recipes shared by the community.
-
-![Browse Recipes](assets/Browse_Recipes.png)
-
----
-
-## Dashboard
-
-Overview of recipes, favourites and user activity.
-
-![Dashboard](assets/Dashboard.png)
-
----
-
-## Dashboard Statistics
-
-Detailed dashboard with recipe insights.
-
-![Dashboard Statistics](assets/Dashboard2.png)
-
----
-
-## Add Recipe
-
-Create and upload a new recipe with ingredients and image.
-
-![Add Recipe](assets/Add_Recipes.png)
-
----
-
-## My Recipes
-
-Manage recipes created by the logged-in user.
-
-![My Recipes](assets/My_Recipes.png)
-
----
-
-## Favourite Recipes
-
-Quickly access all favourite recipes.
-
-![Favourite Recipes](assets/Favourite_Recipes.png)
 
 ---
 
 # 📂 Project Structure
 
-```
+```text
 CookPad
 │
 ├── api
@@ -204,9 +144,7 @@ git clone https://github.com/your-github-username/cookpad.git
 
 ```bash
 pip install -r requirements.txt
-
 python manage.py migrate
-
 python manage.py runserver
 ```
 
@@ -214,7 +152,6 @@ python manage.py runserver
 
 ```bash
 npm install
-
 npm run dev
 ```
 
@@ -246,12 +183,12 @@ npm run dev
 
 # 🚀 Future Improvements
 
-- Recipe Ratings
-- Recipe Comments
-- User Profiles
-- Pagination
-- Advanced Filters
-- Dark Mode
+- ⭐ Recipe Ratings
+- 💬 Recipe Comments
+- 👤 User Profiles
+- 📄 Pagination
+- 🔎 Advanced Filters
+- 🌙 Dark Mode
 
 ---
 
